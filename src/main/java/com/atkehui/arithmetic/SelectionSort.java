@@ -12,7 +12,7 @@ import java.util.Arrays;
  */
 public class SelectionSort {
     public static void main(String[] args) {
-        int[] arr = {-2, 6, 4, 10, 3, -1, 2, -3, -2};
+        int[] arr = {3, 34, 5, 2, -2, 6, -7};
         System.out.println("**********排序前**********");
         System.out.println(Arrays.toString(arr));
 
