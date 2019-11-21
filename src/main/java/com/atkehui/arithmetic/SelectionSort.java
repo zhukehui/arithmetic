@@ -24,7 +24,7 @@ public class SelectionSort {
 
     public static void selectionSort(int[] arr) {
 
-        for (int i = 0; i < arr.length - 1; i++) {
+        for (int i = 0; i < arr.length - 1; i++) {//一共有多少轮排序
             int min = arr[i];//假定最小值
             int minIndex = i;//最小值的索引
             for (int j = i + 1; j < arr.length; j++) {
