@@ -19,7 +19,7 @@ public class BubbleSort {
 
     public static void bubbleSort(int[] arr) {
         int temp = 0;
-        boolean falg = false;
+        boolean falg = false;//定义一个boolean变量，用来判断过程中是否还有交换，用来优化代码
         for (int i = 1; i < arr.length - 1; i++) {
             for (int j = 0; j < arr.length - i; j++) {
                 if (arr[j] > arr[j + 1]) {
