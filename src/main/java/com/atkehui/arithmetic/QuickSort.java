@@ -29,10 +29,10 @@ public class QuickSort {
         int pivot = arr[(left + right) / 2];//中间值
         int temp = 0;//临时变量，用于交换
         while (l < r) {//比pivot小的值放到左边，比pivot大的值放到右边
-            while (arr[l] < pivot) {//在pivot的左边一直找，找到比pivot大的值就推出循环
+            while (arr[l] < pivot) {//在pivot的左边一直找，找到比pivot大的或者等于pivot的值就推出循环
                 l += 1;
             }
-            while (arr[r] > pivot) {//在pivot的右边一直找，找到比pivot小的值就推出循环
+            while (arr[r] > pivot) {//在pivot的右边一直找，找到比pivot小的或者等于pivot的值就推出循环
                 r -= 1;
             }
             if (l >= r) {//如果l>=r 说明pivot两边的值已经按照左边小于pivot右边大于pivot
