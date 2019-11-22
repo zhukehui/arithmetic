@@ -35,7 +35,7 @@ public class QuickSort {
             while (arr[r] > pivot) {//在pivot的右边一直找，找到比pivot小的或者等于pivot的值就推出循环
                 r -= 1;
             }
-            if (l >= r) {//如果l>=r 说明pivot两边的值已经按照左边小于pivot右边大于pivot
+            if (l >= r) {//如果l>=r 说明pivot两边的值已经按照左边小于等于pivot右边大于等于pivot
                 break;
             }
             //交换
